@@ -1,3 +1,11 @@
+<script setup>
+useHead({
+  htmlAttrs: {
+    class: "scroll-smooth",
+  },
+});
+</script>
+
 <template>
   <div class="font-serif text-gray-700" id="top">
     <NuxtRouteAnnouncer />
@@ -212,11 +220,3 @@
     </footer>
   </div>
 </template>
-
-<script>
-useHead({
-  htmlAttrs: {
-    class: "scroll-smooth",
-  },
-});
-</script>
